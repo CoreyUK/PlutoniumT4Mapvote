@@ -18,9 +18,13 @@ keyboard/mouse input, and controller input.
    on a local host, or to `main_shared/maps/mp/gametypes/_globallogic.gsc`
    in the dedicated server's game directory. This small stock-script override
    prevents T4 from forcing the Tab scoreboard over the final map vote.
-3. Copy the settings from `mapvote.cfg` into the server configuration that is
+3. Copy `mod/t4_mapvote` into the server's T4 `mods` directory and launch the
+   server with `fs_game` set to `mods/t4_mapvote`. The folder contains
+   `mod.ff` and `t4_mapvote_images.iwd`; clients download these files to see
+   the map preview images.
+4. Copy the settings from `mapvote.cfg` into the server configuration that is
    executed at startup.
-4. Restart the server or rotate/restart the map.
+5. Restart the server or rotate/restart the map.
 
 If another mod already supplies `_globallogic.gsc`, merge the marked
 `mapVoteIntermission` block into that version instead of replacing it.
