@@ -1,5 +1,8 @@
 # Plutonium T4MP Map Vote
 
+> Looking for Zombies? The T4ZM port and its ready-to-use mod package are in
+> [`zm/`](zm/README.md).
+
 An end-of-match map vote for Call of Duty: World at War multiplayer on
 Plutonium T4. It is inspired by
 [DoktorSAS's map-vote projects](https://github.com/DoktorSAS), but is written
